@@ -367,7 +367,3 @@ guandan.cluster.mode=true
 guandan.cluster.workers=4
 server.port=8182
 ```
-
-## License
-
-仓库当前快照未附带独立 LICENSE 文件。用于再发布或集成前，请先与仓库维护者确认许可范围。

@@ -15,7 +15,7 @@
 [![Paper](https://img.shields.io/badge/Paper-arXiv%202602.00676-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.00676)
 [![Website](https://img.shields.io/badge/Website-openguandan.github.io-0f766e?style=flat-square)](https://openguandan.github.io/)
 
-[快速开始](#快速开始) · [架构概览](#架构概览) · [Python 桥接](#python-桥接) · [WebSocket 协议](#websocket-协议) · [开发说明](#开发说明)
+[快速开始](#快速开始) · [架构概览](#架构概览) · [Python 桥接](#python-桥接) · [WebSocket 协议](#websocket-协议) · [开发说明](#开发说明) · [BibTeX](#citation)
 
 <p>
   <a href="https://openguandan.github.io/">
@@ -50,6 +50,7 @@ OpenGuanDan 将掼蛋的发牌、出牌、进贡、还贡和结算流程封装�
   - [数据约定](#数据约定)
 - [仓库结构](#仓库结构)
 - [开发说明](#开发说明)
+- [Citation](#citation)
 
 ## 快速开始
 
@@ -366,4 +367,16 @@ Java 服务端配置支持集群模式和 Worker 数量；原生发布包使用�
 guandan.cluster.mode=true
 guandan.cluster.workers=4
 server.port=8182
+```
+## Citation
+
+如果 OpenGuanDan 对你的研究有帮助，欢迎引用：
+
+```bibtex
+@article{li2026openguandan,
+  title={OpenGuanDan: A Large-Scale Imperfect Information Game Benchmark},
+  author={Li, Chao and Yang, Shangdong and Zhan, Chiheng and Ge, Zhenxing and Hu, Yujing and Bao, Bingkun and Chen, Xingguo and Gao, Yang},
+  journal={arXiv preprint arXiv:2602.00676},
+  year={2026}
+}
 ```
